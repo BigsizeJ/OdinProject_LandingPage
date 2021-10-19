@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #f9faf8;
+}
+
+.container{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    flex-basis: 100%;
+}
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.link a, li, ul{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.link a{
+    padding: 10px;
+}
+.top-right img{
+    width:500px;
+    height:300px;
+}
+.top{
+    flex-basis: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 90px;
+    color: #f9faf8;
+}
+
+.top-left{
+    flex-basis: 400px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.top-left h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.top-left p{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.top-left h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.top-left button{
+    margin-top: 10px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    background: #3882f6;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: white;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 0 60px;
+}
+
+.content div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    border-radius: 10px;
+    border:3px solid #3882f6;
+}
+
+.quote{
+    color: black;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.review{
+    display: flex;
+    color: #1f2937;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 100px 0 100px;
+}
+
+.user{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.user p{
+    margin: 0;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.call{
+    background-color: #fff;
+    flex-basis: 100%;
+    display: flex;
+    padding: 100px;
+}
+
+.bg{
+    color: black;
+    display: flex;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 50px 100px 50px 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.call-left h1{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.call-left p{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+.call-right button{
+    color: white;
+    width: 100px;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #3882f6;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px;
+}
+
+button:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a:hover{
+    transition: 0.5s;
+    color:#e5e7eb;
+}
